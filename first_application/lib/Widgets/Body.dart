@@ -9,12 +9,10 @@ class MyBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
-        child: const Text(
-          "My Body",
-          style: TextStyle(
-            fontSize: 28,
-            fontStyle: FontStyle.italic,
-            fontWeight: FontWeight.bold,
+        child: const Image(
+          image: AssetImage(
+
+            "assets/images/shop.png",
           ),
         ),
       ),
